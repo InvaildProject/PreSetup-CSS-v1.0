@@ -1,0 +1,170 @@
+:root {
+    /* Display Property */  
+    --display-hdn:      none;
+    --display-line:     inline;
+    --display-bk:       block;
+    --display-inbk:     inline-block;
+    --display-rb:       ruby;
+    --display-rbase:    ruby-base;
+    --display-rbase-ct: ruby-base-container;
+    --display-rtxt:     ruby-text;
+    --display-rtxt-ct:  ruby-text-container;
+    --display-ri:       run-in;
+    --display-fr:       flow-root;
+
+    /* Align Items */
+    --align-nm: normal;
+    --align-str: stretch;
+    --align-ct: center;
+    --align-fs: flex-start;
+    --align-fe: flex-end;
+    --align-st: start;
+    --align-en: end;
+    --align-bl: baseline;
+    --align-itl: initial;
+    --align-iht: inherit;
+    
+    /* Justify Content */
+    --justify-fs: flex-start;
+    --justify-fe: flex-end;
+    --justify-sb: space-between;
+    --justify-sa: space-around;
+    --justify-se: space-evenly;
+    --justify-itl: initial;
+    --justify-iht: inherit;
+    
+    /* Text Align */
+    --txt-align-lt: left;
+    --txt-align-rt: right;
+    --txt-align-cr: center;
+    --txt-align-jy: justify;
+    --txt-align-itl: initial;
+    --txt-align-iht: inherit;
+
+    /* Cursor */
+    --cr-as: alias;
+    --cr-ac: all-scroll;
+    --cr-ao: auto;
+    --cr-cl: cell;
+    --cr-ce: col-resize;
+    --cr-cy: copy;
+    --cr-chr: crosshair;
+    --cr-dft: default;
+    --cr-eze: e-resize;
+    --cr-ewze: ew-resize;
+    --cr-gb: grab;
+    --cr-gbb: grabbing;
+    --cr-hp: help;
+    --cr-me: move;
+    --cr-n: n-resize;
+    --cr-ne: ne-resize;
+    --cr-nesw: nesw-resize;
+    --cr-nd: no-drop;
+    --cr-none: none;
+    --cr-naw: not-allowed;
+    --cr-pr: pointer;
+    --cr-prs: progress;
+    --cr-re: row-resize;
+    --cr-sre: s-resize;
+    --cr-sere: se-resize;
+    --cr-swre: sw-resize;
+    --cr-txt: text;
+    --cr-url: URL;
+    --cr-vtxt: vertical-text
+    --cr-wse: w-resize;
+    --cr-wt: wait;
+    --cr-zin: zoom-in;
+    --cr-zou: zoom-out;
+    --cr-itl: initial;
+    --cr-ihl: inherit;
+
+    /* Border */
+    --bd-itl: initial;
+    --bg-ihl: inherit;
+
+    /* Z-index */
+    --zdx-at: auto;
+    --zdx-nr: number;
+    --zdx-itl: initial;
+    --zdx-iht: inherit;
+
+    /* Text Color */
+    --txt-clr-1:  rgb(255, 255, 255);
+    --txt-clr-2:  rgb(0, 0, 0);
+    --txt-clr-3:  rgb(125, 125, 125);
+    --txt-clr-4:  rgb(255, 0, 0);
+    --txt-clr-5:  rgb(255, 95, 0);
+    --txt-clr-6:  rgb(255, 255, 0);
+    --txt-clr-7:  rgb(50, 255, 0);
+    --txt-clr-8:  rgb(0, 255, 200);
+    --txt-clr-9:  rgb(0, 185, 255);
+    --txt-clr-10: rgb(0, 0, 255);
+    --txt-clr-11: rgb(225, 0, 255);
+    --txt-clr-12: rgb(255, 0, 115);
+
+    /* Text Color But Transparent */
+    --txt-clr-13: #000000;
+    --txt-clr-14: #0000008a;
+    --txt-clr-15: #0000005d;
+    --txt-clr-16: #00000000;
+    
+    --txt-clr-17: #ffffff;
+    --txt-clr-18: #ffffff8a;
+    --txt-clr-19: #ffffff5d;
+    --txt-clr-20: #ffffffff;
+
+    --txt-clr-21: #ff0000;
+    --txt-clr-22: #ff00008a;
+    --txt-clr-23: #ff00005d;
+    --txt-clr-24: #ff000000;
+
+    --txt-clr-25: #ff5f00;
+    --txt-clr-26: #ff5f008a;
+    --txt-clr-27: #ff5f005d;
+    --txt-clr-28: #ff5f0000;
+
+    --txt-clr-29: #ffff00;
+    --txt-clr-30: #ffff008a;
+    --txt-clr-31: #ffff005d;
+    --txt-clr-32: #ffff0000;
+
+    --txt-clr-33: #32ff00;
+    --txt-clr-34: #32ff008a;
+    --txt-clr-35: #32ff005d;
+    --txt-clr-36: #32ff0000;
+
+    --txt-clr-37: #00ffc8;
+    --txt-clr-38: #00ffc88a;
+    --txt-clr-39: #00ffc85d;
+    --txt-clr-40: #00ffc800;
+
+    --txt-clr-41: #0000ff;
+    --txt-clr-42: #0000ff8a;
+    --txt-clr-43: #0000ff5d;
+    --txt-clr-44: #0000ff00;
+
+    --txt-clr-45: #e100ff;
+    --txt-clr-46: #e100ff8a;
+    --txt-clr-47: #e100ff5d;
+    --txt-clr-48: #e100ff00;
+
+    --txt-clr-49: #ff0073;
+    --txt-clr-50: #ff00738a;
+    --txt-clr-51: #ff00735d;
+    --txt-clr-52: #ff007300;
+
+    /* Button Background Color */
+    --btn-bg-1: #000;
+    --btn-bg-2: #fff;
+    --btn-bg-3: grey;
+    --btn-bg-4: red;
+    --btn-bg-5: yellow;
+    --btn-bg-6: #333;
+    --btn-bg-7: #111;
+    --btn-bg-8: #000;
+
+    /* Button Hover Background Color */
+    --btn-hovbg-1: #000;
+    --btn-hovbg-2: #333;
+    --bt-hovbg-3: #111;
+}
